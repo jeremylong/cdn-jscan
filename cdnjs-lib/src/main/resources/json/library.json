@@ -1,0 +1,261 @@
+{
+  "$id": "librarys",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSON Schema for https://api.cdnjs.com/libraries/library",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "jquery",
+      "examples": [
+        "jquery"
+      ]
+    },
+    "latest": {
+      "type": "string",
+      "default": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+      "examples": [
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ]
+    },
+    "sri": {
+      "type": "string",
+      "default": "sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==",
+      "examples": [
+        "sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      ]
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "default": "jQuery Foundation and other contributors",
+            "examples": [
+              "jQuery Foundation and other contributors"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "default": "https://github.com/jquery/jquery/blob/master/AUTHORS.txt",
+            "examples": [
+              "https://github.com/jquery/jquery/blob/master/AUTHORS.txt"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "autoupdate": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string",
+          "default": "npm",
+          "examples": [
+            "npm"
+          ]
+        },
+        "target": {
+          "type": "string",
+          "default": "jquery",
+          "examples": [
+            "jquery"
+          ]
+        },
+        "fileMap": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "basePath": {
+                "type": "string",
+                "default": "dist",
+                "examples": [
+                  "dist"
+                ]
+              },
+              "files": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "default": "**/*",
+                  "examples": [
+                    "**/*"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "basePath",
+              "files"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "source",
+        "target",
+        "fileMap"
+      ],
+      "additionalProperties": false
+    },
+    "description": {
+      "type": "string",
+      "default": "JavaScript library for DOM operations",
+      "examples": [
+        "JavaScript library for DOM operations"
+      ]
+    },
+    "filename": {
+      "type": "string",
+      "default": "jquery.min.js",
+      "examples": [
+        "jquery.min.js"
+      ]
+    },
+    "homepage": {
+      "type": "string",
+      "default": "http://jquery.com/",
+      "examples": [
+        "http://jquery.com/"
+      ]
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "default": "jquery",
+        "examples": [
+          "jquery"
+        ]
+      }
+    },
+    "license": {
+      "type": "string",
+      "default": "MIT",
+      "examples": [
+        "MIT"
+      ]
+    },
+    "repository": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "default": "git",
+          "examples": [
+            "git"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "default": "https://github.com/jquery/jquery.git",
+          "examples": [
+            "https://github.com/jquery/jquery.git"
+          ]
+        }
+      },
+      "required": [
+        "type",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "version": {
+      "type": "string",
+      "default": "3.6.1",
+      "examples": [
+        "3.6.1"
+      ]
+    },
+    "author": {
+      "type": "string",
+      "default": "jQuery Foundation and other contributors (https://github.com/jquery/jquery/blob/master/AUTHORS.txt)",
+      "examples": [
+        "jQuery Foundation and other contributors (https://github.com/jquery/jquery/blob/master/AUTHORS.txt)"
+      ]
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "string",
+            "default": "3.6.1",
+            "examples": [
+              "3.6.1"
+            ]
+          },
+          "files": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "default": "jquery.js",
+              "examples": [
+                "jquery.js"
+              ]
+            }
+          },
+          "rawFiles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "default": "jquery.js",
+              "examples": [
+                "jquery.js"
+              ]
+            }
+          },
+          "sri": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          }
+        },
+        "required": [
+          "version",
+          "files",
+          "rawFiles",
+          "sri"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "default": "1.10.0",
+        "examples": [
+          "1.10.0"
+        ]
+      }
+    }
+  },
+  "required": [
+    "name",
+    "latest",
+    "sri",
+    "authors",
+    "autoupdate",
+    "description",
+    "filename",
+    "homepage",
+    "keywords",
+    "license",
+    "repository",
+    "version",
+    "author",
+    "assets",
+    "versions"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,53 @@
+{
+  "$id": "root",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "jquery",
+      "examples": [
+        "jquery"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "default": "3.5.1",
+      "examples": [
+        "3.5.1"
+      ]
+    },
+    "rawFiles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "default": "jquery.js",
+        "examples": [
+          "jquery.js"
+        ]
+      }
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "default": "jquery.js",
+        "examples": [
+          "jquery.js"
+        ]
+      }
+    },
+    "sri": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  },
+  "required": [
+    "name",
+    "version",
+    "rawFiles",
+    "files",
+    "sri"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,216 @@
+{
+  "results": [
+    {
+      "name": "vue",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.cjs.js",
+      "filename": "vue.cjs.js",
+      "version": "3.2.45"
+    },
+    {
+      "name": "react-is",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/react-is/18.2.0/umd/react-is.production.min.js",
+      "filename": "umd/react-is.production.min.js",
+      "version": "18.2.0"
+    },
+    {
+      "name": "react",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js",
+      "filename": "umd/react.production.min.js",
+      "version": "18.2.0"
+    },
+    {
+      "name": "react-dom",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js",
+      "filename": "umd/react-dom.production.min.js",
+      "version": "18.2.0"
+    },
+    {
+      "name": "twitter-bootstrap",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js",
+      "filename": "js/bootstrap.min.js",
+      "version": "5.2.3"
+    },
+    {
+      "name": "bootstrap",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js",
+      "filename": "js/bootstrap.min.js",
+      "version": "5.2.3"
+    },
+    {
+      "name": "create-react-class",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/create-react-class/15.7.0/create-react-class.min.js",
+      "filename": "create-react-class.min.js",
+      "version": "15.7.0"
+    },
+    {
+      "name": "d3",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/d3/7.7.0/d3.min.js",
+      "filename": "d3.min.js",
+      "version": "7.7.0"
+    },
+    {
+      "name": "axios",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js",
+      "filename": "axios.min.js",
+      "version": "1.2.0"
+    },
+    {
+      "name": "three.js",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.147.0/three.min.js",
+      "filename": "three.min.js",
+      "version": "0.147.0"
+    },
+    {
+      "name": "typescript",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/typescript/4.9.3/typescript.min.js",
+      "filename": "typescript.min.js",
+      "version": "4.9.3"
+    },
+    {
+      "name": "angular",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular/12.2.17/core.umd.min.js",
+      "filename": "core.umd.min.js",
+      "version": "12.2.17"
+    },
+    {
+      "name": "antd",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/antd/5.0.4/antd.min.js",
+      "filename": "antd.min.js",
+      "version": "5.0.4"
+    },
+    {
+      "name": "material-ui",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/material-ui/4.12.4/index.js",
+      "filename": "index.js",
+      "version": "4.12.4"
+    },
+    {
+      "name": "font-awesome",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css",
+      "filename": "css/all.min.css",
+      "version": "6.2.1"
+    },
+    {
+      "name": "animate.css",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+      "filename": "animate.min.css",
+      "version": "4.1.1"
+    },
+    {
+      "name": "tailwindcss",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css",
+      "filename": "tailwind.min.css",
+      "version": "2.2.19"
+    },
+    {
+      "name": "reveal.js",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.js",
+      "filename": "reveal.js",
+      "version": "4.4.0"
+    },
+    {
+      "name": "firacode",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.css",
+      "filename": "fira_code.css",
+      "version": "6.2.0"
+    },
+    {
+      "name": "angular-animate",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-animate/1.8.3/angular-animate.min.js",
+      "filename": "angular-animate.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-aria",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-aria/1.8.3/angular-aria.min.js",
+      "filename": "angular-aria.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-cookies",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-cookies/1.8.3/angular-cookies.min.js",
+      "filename": "angular-cookies.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-loader",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-loader/1.8.3/angular-loader.min.js",
+      "filename": "angular-loader.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-message-format",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-message-format/1.8.3/angular-message-format.min.js",
+      "filename": "angular-message-format.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-messages",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.8.3/angular-messages.min.js",
+      "filename": "angular-messages.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-parse-ext",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-parse-ext/1.8.3/angular-parse-ext.min.js",
+      "filename": "angular-parse-ext.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-resource",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.8.3/angular-resource.min.js",
+      "filename": "angular-resource.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-route",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.3/angular-route.min.js",
+      "filename": "angular-route.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-sanitize",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.8.3/angular-sanitize.min.js",
+      "filename": "angular-sanitize.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-touch",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-touch/1.8.3/angular-touch.min.js",
+      "filename": "angular-touch.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular.js",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js",
+      "filename": "angular.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "angular-i18n",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.8.3/angular-locale_en-us.min.js",
+      "filename": "angular-locale_en-us.min.js",
+      "version": "1.8.3"
+    },
+    {
+      "name": "Chart.js",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.min.js",
+      "filename": "chart.min.js",
+      "version": "4.0.1"
+    },
+    {
+      "name": "redux",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.0/redux.min.js",
+      "filename": "redux.min.js",
+      "version": "4.2.0"
+    },
+    {
+      "name": "xcharts",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/xcharts/0.3.0/xcharts.min.js",
+      "filename": "xcharts.min.js",
+      "version": "0.3.0"
+    }
+  ],
+  "total": 4343,
+  "available": 4343
+}

@@ -1,0 +1,71 @@
+{
+  "$id": "libraries",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSON Schema for https://api.cdnjs.com/libraries?fields=filename,version",
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "default": "vue",
+            "examples": [
+              "vue"
+            ]
+          },
+          "latest": {
+            "type": "string",
+            "default": "https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.cjs.js",
+            "examples": [
+              "https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.cjs.js"
+            ]
+          },
+          "filename": {
+            "type": "string",
+            "default": "vue.cjs.js",
+            "examples": [
+              "vue.cjs.js"
+            ]
+          },
+          "version": {
+            "type": "string",
+            "default": "3.2.45",
+            "examples": [
+              "3.2.45"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "latest",
+          "filename",
+          "version"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "total": {
+      "type": "integer",
+      "default": 4343,
+      "examples": [
+        4343
+      ]
+    },
+    "available": {
+      "type": "integer",
+      "default": 4343,
+      "examples": [
+        4343
+      ]
+    }
+  },
+  "required": [
+    "results",
+    "total",
+    "available"
+  ],
+  "additionalProperties": false
+}
