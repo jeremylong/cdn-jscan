@@ -13,16 +13,18 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package io.github.jeremylong.jscan.cli.commands;
+package io.github.jeremylong.cdnjs.scanner;
 
-import org.springframework.stereotype.Component;
-import picocli.CommandLine;
+import java.io.File;
+import java.io.FileDescriptor;
+import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.PathMatcher;
+import java.nio.file.Paths;
+import java.util.List;
 
-@Component
-@CommandLine.Command(name = "", subcommands = {InstallCommand.class})
-public class MainCommand extends AbstractHelpfulCommand {
-    @Override
-    public Integer call() throws Exception {
-        return 0;
-    }
+public class FileSearcher {
+
 }

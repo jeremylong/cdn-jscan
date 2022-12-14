@@ -1,0 +1,44 @@
+plugins {
+    id 'vuln.tools.java-library-conventions'
+}
+
+description = 'A java library to create a local datastore of the data from CDNSJS'
+
+dependencies {
+    implementation 'org.liquibase:liquibase-core:4.18.0'
+    implementation 'com.mattbertolini:liquibase-slf4j:4.1.0'
+    implementation 'com.h2database:h2:2.1.214'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId project.group
+            artifactId project.name
+            version project.version
+            from components.java
+            pom {
+                url = 'https://github.com/jeremylong/cdn-jscan/'
+                description = project.description
+                name = project.name
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'https://github.com/jeremylong/cdn-jscan/blob/main/LICENSE.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'jeremy.long'
+                        name = 'Jeremy Long'
+                    }
+                }
+                scm {
+                    url = 'https://github.com/jeremylong/cdn-jscan'
+                    connection = 'scm:git:https://github.com/jeremylong/cdn-jscan.git'
+                    developerConnection = 'scm:git:https://github.com/jeremylong/cdn-jscan.git'
+                }
+            }
+        }
+    }
+}

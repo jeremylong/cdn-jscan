@@ -13,16 +13,11 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package io.github.jeremylong.jscan.cli.commands;
+package io.github.jeremylong.cdnjs.storage;
 
-import org.springframework.stereotype.Component;
-import picocli.CommandLine;
+public class DBStore {
 
-@Component
-@CommandLine.Command(name = "", subcommands = {InstallCommand.class})
-public class MainCommand extends AbstractHelpfulCommand {
-    @Override
-    public Integer call() throws Exception {
-        return 0;
-    }
+    private final static String CONNECTION_STRING_ENV = "CDNJS_CONNECTION_STRING";
+    private final static String DEFAULT_CONNECTION_STRING = "jdbc:h2:file:./data/cdnjs;AUTOCOMMIT=ON;";
+
 }

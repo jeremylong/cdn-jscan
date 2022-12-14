@@ -9,7 +9,7 @@ plugins {
 description = 'A java CLI scan for references to hosted JS in application files'
 
 dependencies {
-    implementation project(':cdnjs-lib')
+    implementation project(':cdnjs-api')
     implementation 'info.picocli:picocli-spring-boot-starter:4.6.3'
     implementation 'com.diogonunes:JColor:5.5.1'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4.2'
@@ -44,13 +44,13 @@ publishing {
         maven(MavenPublication) {
             artifact tasks.named("bootJar")
             pom {
-                url = 'https://github.com/jeremylong/vuln-tools/'
+                url = 'https://github.com/jeremylong/cdn-jscan/'
                 description = project.description
                 name = project.name
                 licenses {
                     license {
                         name = 'The Apache License, Version 2.0'
-                        url = 'https://github.com/jeremylong/vuln-tools/blob/main/LICENSE.txt'
+                        url = 'https://github.com/jeremylong/cdn-jscan/blob/main/LICENSE.txt'
                     }
                 }
                 developers {
@@ -60,9 +60,9 @@ publishing {
                     }
                 }
                 scm {
-                    url = 'https://github.com/jeremylong/vuln-tools'
-                    connection = 'scm:git:https://github.com/jeremylong/vuln-tools.git'
-                    developerConnection = 'scm:git:https://github.com/jeremylong/vuln-tools.git'
+                    url = 'https://github.com/jeremylong/cdn-jscan'
+                    connection = 'scm:git:https://github.com/jeremylong/cdn-jscan.git'
+                    developerConnection = 'scm:git:https://github.com/jeremylong/cdn-jscan.git'
                 }
             }
         }

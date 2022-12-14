@@ -1,2 +1,2 @@
 rootProject.name = 'cdn-jscan'
-include('jscan', 'cdnjs-lib')
+include('jscan', 'cdnjs-api', 'js-registry', 'js-scanner')

@@ -13,16 +13,12 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package io.github.jeremylong.jscan.cli.commands;
+package io.github.jeremylong.cdnjs.api;
 
-import org.springframework.stereotype.Component;
-import picocli.CommandLine;
+import io.github.jeremylong.cdnjs.json.Library;
 
-@Component
-@CommandLine.Command(name = "", subcommands = {InstallCommand.class})
-public class MainCommand extends AbstractHelpfulCommand {
-    @Override
-    public Integer call() throws Exception {
-        return 0;
+public class LibraryAsynchResults extends AbstractAsynchResults<Library> {
+    public LibraryAsynchResults() {
+        super(Library.class);
     }
 }
