@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.4.xsd">
+    <changeSet author="jeremy" id="initial">
+        <createTable tableName="BONUS">
+            <column name="NAME" type="VARCHAR2(15)"/>
+            <column name="JOB" type="VARCHAR2(255)"/>
+            <column name="SAL" type="NUMBER(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="lb-generated" id="1185214997195-2">
+        <createTable tableName="DEPT">
+            <column name="DEPTNO" type="INTEGER"/>
+            <column name="DNAME" type="VARCHAR2(15)"/>
+            <column name="LOC" type="VARCHAR2(255)"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

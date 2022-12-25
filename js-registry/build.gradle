@@ -2,9 +2,10 @@ plugins {
     id 'vuln.tools.java-library-conventions'
 }
 
-description = 'A java library to create a local datastore of the data from CDNSJS'
+description = 'A java library to create a local datastore of the data from CDN-JS'
 
 dependencies {
+    implementation 'org.slf4j:slf4j-api:1.7.36'
     implementation 'org.liquibase:liquibase-core:4.18.0'
     implementation 'com.mattbertolini:liquibase-slf4j:4.1.0'
     implementation 'com.h2database:h2:2.1.214'
